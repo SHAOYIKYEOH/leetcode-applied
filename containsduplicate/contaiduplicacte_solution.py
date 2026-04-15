@@ -16,3 +16,8 @@ def containsDuplicate2(nums:List[int]):
             return True
         seen.add(i)
     return False
+
+
+box = [1,2,3,4,1]
+
+print(containsDuplicate(box))
